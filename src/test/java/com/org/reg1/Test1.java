@@ -16,7 +16,7 @@ public class Test1 {
 
 
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(); 
        // driver.quit();
 
         // Exercise
