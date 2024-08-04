@@ -1,7 +1,8 @@
-package com.test.base;
+package com.test.testcases;
 
 import org.testng.annotations.Test;
 
+import com.test.base.BaseTest;
 import com.test.pages.LoginPage;
 
 public class firstTest extends BaseTest {

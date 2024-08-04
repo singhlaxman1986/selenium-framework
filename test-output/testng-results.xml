@@ -2,35 +2,35 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-04T17:39:28 IST" name="Suite" finished-at="2024-08-04T17:39:37 IST" duration-ms="9416">
+  <suite started-at="2024-08-04T17:49:03 IST" name="Suite" finished-at="2024-08-04T17:49:12 IST" duration-ms="9297">
     <groups>
     </groups>
-    <test started-at="2024-08-04T17:39:28 IST" name="Test" finished-at="2024-08-04T17:39:37 IST" duration-ms="9416">
-      <class name="com.test.base.firstTest">
-        <test-method is-config="true" signature="initializeDriver(org.testng.ITestContext)[pri:0, instance:com.test.base.firstTest@75d3a5e0]" started-at="2024-08-04T17:39:28 IST" name="initializeDriver" finished-at="2024-08-04T17:39:28 IST" duration-ms="18" status="PASS">
+    <test started-at="2024-08-04T17:49:03 IST" name="Test" finished-at="2024-08-04T17:49:12 IST" duration-ms="9297">
+      <class name="com.test.testcases.firstTest">
+        <test-method is-config="true" signature="initializeDriver(org.testng.ITestContext)[pri:0, instance:com.test.testcases.firstTest@75d3a5e0]" started-at="2024-08-04T17:49:03 IST" name="initializeDriver" finished-at="2024-08-04T17:49:03 IST" duration-ms="21" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@660591fb]]>
+                <![CDATA[org.testng.TestRunner@353efdbf]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.test.base.firstTest@75d3a5e0]" started-at="2024-08-04T17:39:28 IST" name="beforeClass" finished-at="2024-08-04T17:39:35 IST" duration-ms="7203" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.test.testcases.firstTest@75d3a5e0]" started-at="2024-08-04T17:49:03 IST" name="beforeClass" finished-at="2024-08-04T17:49:09 IST" duration-ms="6283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:0, instance:com.test.base.firstTest@75d3a5e0]" started-at="2024-08-04T17:39:35 IST" name="f" finished-at="2024-08-04T17:39:37 IST" duration-ms="1486" status="PASS">
+        <test-method signature="f()[pri:0, instance:com.test.testcases.firstTest@75d3a5e0]" started-at="2024-08-04T17:49:09 IST" name="f" finished-at="2024-08-04T17:49:12 IST" duration-ms="2566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.test.base.firstTest@75d3a5e0]" started-at="2024-08-04T17:39:37 IST" name="closeDriver" finished-at="2024-08-04T17:39:37 IST" duration-ms="647" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.test.testcases.firstTest@75d3a5e0]" started-at="2024-08-04T17:49:12 IST" name="closeDriver" finished-at="2024-08-04T17:49:12 IST" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- com.test.base.firstTest -->
+      </class> <!-- com.test.testcases.firstTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

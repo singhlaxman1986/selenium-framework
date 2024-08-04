@@ -2,7 +2,7 @@
 <suite parallel="false" name="Suite">
   <test name="Test">
     <classes>
-      <class name="com.test.base.firstTest"/>
+      <class name="com.test.testcases.firstTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
