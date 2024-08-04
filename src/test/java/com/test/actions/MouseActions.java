@@ -1,4 +1,4 @@
-package com.action;
+package com.test.actions;
 
 public class MouseActions {
 	

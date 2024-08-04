@@ -1,12 +1,12 @@
-package com.action;
+package com.test.actions;
 
 import org.openqa.selenium.WebDriver;
 
 public class BrowserActions {
 
-	private WebDriver driver;
+	public WebDriver driver;
 
-	BrowserActions(WebDriver driver) {
+	public BrowserActions(WebDriver driver) {
 		this.driver = driver;
 
 	}
@@ -19,11 +19,11 @@ public class BrowserActions {
 	public void refreshPage() {
 		driver.navigate().refresh();
 	}
-	
+
 	public StandardActions action() {
 		return new StandardActions(driver);
 	}
-	
+
 	public FrameActions frameActions() {
 		return new FrameActions(driver);
 	}

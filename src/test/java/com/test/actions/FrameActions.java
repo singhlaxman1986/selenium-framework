@@ -1,4 +1,4 @@
-package com.action;
+package com.test.actions;
 
 import org.openqa.selenium.WebDriver;
 
