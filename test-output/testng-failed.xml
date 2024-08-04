@@ -3,14 +3,14 @@
 <suite name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.base.firstTest">
+      <class name="com.test.testcases.firstTest">
         <methods>
-          <include name="beforeClass"/>
+          <include name="initializeDriver"/>
           <include name="closeDriver"/>
           <include name="f"/>
-          <include name="initializeDriver"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.base.firstTest -->
+      </class> <!-- com.test.testcases.firstTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,5 +1,6 @@
 package com.test.testcases;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.test.base.BaseTest;
@@ -14,6 +15,7 @@ public class firstTest extends BaseTest {
 
 		loginPage = new LoginPage(getDriver(), selenium);
 		loginPage.loginToGoogle();
+		Assert.assertTrue(false);
 
 	}
 }
